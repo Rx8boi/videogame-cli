@@ -1,0 +1,11 @@
+#!/usr/local/bin/env ruby
+require 'open-uri'
+require 'nokogiri'
+require 'pry'
+require 'colorize'
+
+require_relative '..\lib\videogame\cli.rb'
+require_relative '..\lib\videogame\scrapper.rb'
+require_relative '..\lib\videogame\videogames.rb'
+
+CLI.new.call
